@@ -8,6 +8,9 @@
 
 .header {
   padding: 15px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between
 }
 
 
@@ -15,15 +18,17 @@
 
 .profile-image-container {
     height:150px;
-    width:auto;
+    width:90%;
+    margin: 0 auto;
     margin-bottom: 15px;
     background: #96F0F2;
+    min-width: 250px;
 }
 
 /* Step-2 One option to get the container to fill the parent container is to use width: auto; */
 
 .profile-links-container {
-    height:310px;
+    height:330px;
     width:auto;
     background: #12F3F7;
     
@@ -32,25 +37,19 @@
 
 
 .logo-container {
-    position:fixed;
-    top:0;
-    left:0;
-    height:50px;
+    height:70px;
     width:265px;
-    margin:15px;
     background: #4F4949;
+
 }
 
 
 /* Step-2 You can either use float left or position absolute to get this element to in the desired location. */
 
 .menu-container {
-    margin:20px;
-    position:fixed;
-    top:0;
-    right:0;
-    height:50px;
-    width:5%;
+    justify-content: space-between;
+    height:70px;
+    width:50px;
     background: #4F4949;
 }
 
